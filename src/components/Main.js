@@ -4,7 +4,7 @@ import image1 from './image/1.jpg'
 import image2 from './image/2.jpg'
 
 const Main = () => {
-const [images,setImages] = useState("image1")
+const [images,setImages] = useState("image2")
 const turnOn = () =>{
     setImages(image1)
 }
